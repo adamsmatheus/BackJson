@@ -10,6 +10,13 @@ defmodule BackJsonWeb.UsersJSON do
         }
     end 
 
+    def delete(%{user: user}) do
+        %{
+            message: "user deletado com sucesso",
+            
+        }
+    end 
+
     def update(%{user: user}) do
         %{
             message: "user atualizado com sucesso",
